@@ -1,5 +1,6 @@
 // Funniest One-Line AI Agent Confession — make.fun entry.
 // Writes one 135-character confession to /output/entry.txt.
+// Gate: the file must hold UTF-8 text of 1 to 200 characters.
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
